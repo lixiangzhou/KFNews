@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B260DFC21837E3D7F1C259F /* Pods_KFNews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F94A12DA87EF99B4FC3E92E4 /* Pods_KFNews.framework */; };
+		97F2B7501F3E34C100979553 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F2B74F1F3E34C100979553 /* AppDelegate.swift */; };
+		97F2B7521F3E34C100979553 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F2B7511F3E34C100979553 /* ViewController.swift */; };
+		97F2B7551F3E34C100979553 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97F2B7531F3E34C100979553 /* Main.storyboard */; };
+		97F2B7571F3E34C100979553 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97F2B7561F3E34C100979553 /* Assets.xcassets */; };
+		97F2B75A1F3E34C100979553 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97F2B7581F3E34C100979553 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		812E0E74E74B1BA599688CAB /* Pods-KFNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KFNews.release.xcconfig"; path = "Pods/Target Support Files/Pods-KFNews/Pods-KFNews.release.xcconfig"; sourceTree = "<group>"; };
+		84D2A9045A8148F1A25B09A5 /* Pods-KFNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KFNews.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KFNews/Pods-KFNews.debug.xcconfig"; sourceTree = "<group>"; };
+		97F2B74C1F3E34C100979553 /* KFNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KFNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		97F2B74F1F3E34C100979553 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		97F2B7511F3E34C100979553 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		97F2B7541F3E34C100979553 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		97F2B7561F3E34C100979553 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		97F2B7591F3E34C100979553 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		97F2B75B1F3E34C100979553 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F94A12DA87EF99B4FC3E92E4 /* Pods_KFNews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KFNews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		97F2B7491F3E34C100979553 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B260DFC21837E3D7F1C259F /* Pods_KFNews.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		97F2B7431F3E34C100979553 = {
+			isa = PBXGroup;
+			children = (
+				97F2B74E1F3E34C100979553 /* KFNews */,
+				97F2B74D1F3E34C100979553 /* Products */,
+				F172906703371F680F94A3A2 /* Pods */,
+				F85177E8B4C452C0ABFCED0E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		97F2B74D1F3E34C100979553 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97F2B74C1F3E34C100979553 /* KFNews.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		97F2B74E1F3E34C100979553 /* KFNews */ = {
+			isa = PBXGroup;
+			children = (
+				97F2B74F1F3E34C100979553 /* AppDelegate.swift */,
+				97F2B7511F3E34C100979553 /* ViewController.swift */,
+				97F2B7531F3E34C100979553 /* Main.storyboard */,
+				97F2B7561F3E34C100979553 /* Assets.xcassets */,
+				97F2B7581F3E34C100979553 /* LaunchScreen.storyboard */,
+				97F2B75B1F3E34C100979553 /* Info.plist */,
+			);
+			path = KFNews;
+			sourceTree = "<group>";
+		};
+		F172906703371F680F94A3A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				84D2A9045A8148F1A25B09A5 /* Pods-KFNews.debug.xcconfig */,
+				812E0E74E74B1BA599688CAB /* Pods-KFNews.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F85177E8B4C452C0ABFCED0E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F94A12DA87EF99B4FC3E92E4 /* Pods_KFNews.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		97F2B74B1F3E34C100979553 /* KFNews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97F2B75E1F3E34C100979553 /* Build configuration list for PBXNativeTarget "KFNews" */;
+			buildPhases = (
+				FB56EB0B0837255D21E46D01 /* [CP] Check Pods Manifest.lock */,
+				97F2B7481F3E34C100979553 /* Sources */,
+				97F2B7491F3E34C100979553 /* Frameworks */,
+				97F2B74A1F3E34C100979553 /* Resources */,
+				216AE2C861F4E10E6E74D774 /* [CP] Embed Pods Frameworks */,
+				2D5B91ACB96CA8C1178392CE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KFNews;
+			productName = KFNews;
+			productReference = 97F2B74C1F3E34C100979553 /* KFNews.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		97F2B7441F3E34C100979553 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = lixiangzhou;
+				TargetAttributes = {
+					97F2B74B1F3E34C100979553 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 97F2B7471F3E34C100979553 /* Build configuration list for PBXProject "KFNews" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 97F2B7431F3E34C100979553;
+			productRefGroup = 97F2B74D1F3E34C100979553 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97F2B74B1F3E34C100979553 /* KFNews */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		97F2B74A1F3E34C100979553 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97F2B75A1F3E34C100979553 /* LaunchScreen.storyboard in Resources */,
+				97F2B7571F3E34C100979553 /* Assets.xcassets in Resources */,
+				97F2B7551F3E34C100979553 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		216AE2C861F4E10E6E74D774 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-KFNews/Pods-KFNews-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Async/Async.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyBeaver/SwiftyBeaver.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Async.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyBeaver.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KFNews/Pods-KFNews-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D5B91ACB96CA8C1178392CE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KFNews/Pods-KFNews-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB56EB0B0837255D21E46D01 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KFNews-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		97F2B7481F3E34C100979553 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97F2B7521F3E34C100979553 /* ViewController.swift in Sources */,
+				97F2B7501F3E34C100979553 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		97F2B7531F3E34C100979553 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97F2B7541F3E34C100979553 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		97F2B7581F3E34C100979553 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97F2B7591F3E34C100979553 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		97F2B75C1F3E34C100979553 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		97F2B75D1F3E34C100979553 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		97F2B75F1F3E34C100979553 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84D2A9045A8148F1A25B09A5 /* Pods-KFNews.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KFNews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zz.KFNews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		97F2B7601F3E34C100979553 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 812E0E74E74B1BA599688CAB /* Pods-KFNews.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KFNews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zz.KFNews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		97F2B7471F3E34C100979553 /* Build configuration list for PBXProject "KFNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97F2B75C1F3E34C100979553 /* Debug */,
+				97F2B75D1F3E34C100979553 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97F2B75E1F3E34C100979553 /* Build configuration list for PBXNativeTarget "KFNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97F2B75F1F3E34C100979553 /* Debug */,
+				97F2B7601F3E34C100979553 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 97F2B7441F3E34C100979553 /* Project object */;
+}
