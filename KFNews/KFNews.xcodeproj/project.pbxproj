@@ -8,22 +8,98 @@
 
 /* Begin PBXBuildFile section */
 		2B260DFC21837E3D7F1C259F /* Pods_KFNews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F94A12DA87EF99B4FC3E92E4 /* Pods_KFNews.framework */; };
+		97F1381C1F3FEB560074D727 /* KFNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F1380C1F3FEB560074D727 /* KFNavigationController.swift */; };
+		97F1381D1F3FEB560074D727 /* KFTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F1380D1F3FEB560074D727 /* KFTabBarController.swift */; };
+		97F1381E1F3FEB560074D727 /* KFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F1380E1F3FEB560074D727 /* KFViewController.swift */; };
+		97F138201F3FEB760074D727 /* KFHomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F1381F1F3FEB760074D727 /* KFHomeController.swift */; };
+		97F138221F3FEB890074D727 /* KFMineController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F138211F3FEB890074D727 /* KFMineController.swift */; };
+		97F138241F3FEBA20074D727 /* KFVideoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F138231F3FEBA20074D727 /* KFVideoController.swift */; };
+		97F138261F3FEBDF0074D727 /* KFVRController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F138251F3FEBDF0074D727 /* KFVRController.swift */; };
+		97F1384F1F3FF52E0074D727 /* ZZCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F138281F3FF52E0074D727 /* ZZCollection.swift */; };
+		97F138501F3FF52E0074D727 /* ZZButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F1382A1F3FF52E0074D727 /* ZZButton.swift */; };
+		97F138511F3FF52E0074D727 /* ZZCircleProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F1382B1F3FF52E0074D727 /* ZZCircleProgressView.swift */; };
+		97F138521F3FF52E0074D727 /* ZZProgressHud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F1382C1F3FF52E0074D727 /* ZZProgressHud.swift */; };
+		97F138531F3FF52E0074D727 /* UIScrollView+ZZRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F1382E1F3FF52E0074D727 /* UIScrollView+ZZRefresh.swift */; };
+		97F138541F3FF52E0074D727 /* ZZRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F1382F1F3FF52E0074D727 /* ZZRefresh.swift */; };
+		97F138551F3FF52E0074D727 /* ZZRefreshFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F138301F3FF52E0074D727 /* ZZRefreshFooter.swift */; };
+		97F138561F3FF52E0074D727 /* ZZRefreshHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F138311F3FF52E0074D727 /* ZZRefreshHeader.swift */; };
+		97F138571F3FF52E0074D727 /* ZZRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F138321F3FF52E0074D727 /* ZZRefreshView.swift */; };
+		97F138581F3FF52E0074D727 /* Calendar+ZZExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F138351F3FF52E0074D727 /* Calendar+ZZExtension.swift */; };
+		97F138591F3FF52E0074D727 /* CGRect+ZZExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F138361F3FF52E0074D727 /* CGRect+ZZExtension.swift */; };
+		97F1385A1F3FF52E0074D727 /* Data+ZZExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F138371F3FF52E0074D727 /* Data+ZZExtension.swift */; };
+		97F1385B1F3FF52E0074D727 /* Date+ZZExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F138381F3FF52E0074D727 /* Date+ZZExtension.swift */; };
+		97F1385C1F3FF52E0074D727 /* DateFormatter+ZZExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F138391F3FF52E0074D727 /* DateFormatter+ZZExtension.swift */; };
+		97F1385D1F3FF52E0074D727 /* DispatchQueue+ZZExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F1383A1F3FF52E0074D727 /* DispatchQueue+ZZExtension.swift */; };
+		97F1385E1F3FF52E0074D727 /* Locale+ZZExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F1383B1F3FF52E0074D727 /* Locale+ZZExtension.swift */; };
+		97F1385F1F3FF52E0074D727 /* NSNumber+ZZExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F1383C1F3FF52E0074D727 /* NSNumber+ZZExtension.swift */; };
+		97F138601F3FF52E0074D727 /* NSObject+ZZExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F1383D1F3FF52E0074D727 /* NSObject+ZZExtension.swift */; };
+		97F138611F3FF52E0074D727 /* String+ZZExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F1383E1F3FF52E0074D727 /* String+ZZExtension.swift */; };
+		97F138621F3FF52E0074D727 /* UIAlertController+ZZExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F138401F3FF52E0074D727 /* UIAlertController+ZZExtension.swift */; };
+		97F138631F3FF52E0074D727 /* UIApplication+ZZExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F138411F3FF52E0074D727 /* UIApplication+ZZExtension.swift */; };
+		97F138641F3FF52E0074D727 /* UIButton+ZZExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F138421F3FF52E0074D727 /* UIButton+ZZExtension.swift */; };
+		97F138651F3FF52E0074D727 /* UIColor+ZZExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F138431F3FF52E0074D727 /* UIColor+ZZExtension.swift */; };
+		97F138661F3FF52E0074D727 /* UIDevice+ZZExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F138441F3FF52E0074D727 /* UIDevice+ZZExtension.swift */; };
+		97F138671F3FF52E0074D727 /* UIFont+ZZExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F138451F3FF52E0074D727 /* UIFont+ZZExtension.swift */; };
+		97F138681F3FF52E0074D727 /* UIImage+ZZExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F138461F3FF52E0074D727 /* UIImage+ZZExtension.swift */; };
+		97F138691F3FF52E0074D727 /* UIImageView+ZZExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F138471F3FF52E0074D727 /* UIImageView+ZZExtension.swift */; };
+		97F1386A1F3FF52E0074D727 /* UILabel+ZZExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F138481F3FF52E0074D727 /* UILabel+ZZExtension.swift */; };
+		97F1386B1F3FF52E0074D727 /* UISceen+ZZExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F138491F3FF52E0074D727 /* UISceen+ZZExtension.swift */; };
+		97F1386C1F3FF52E0074D727 /* UIScrollView+ZZExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F1384A1F3FF52E0074D727 /* UIScrollView+ZZExtension.swift */; };
+		97F1386D1F3FF52E0074D727 /* UITableView+ZZExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F1384B1F3FF52E0074D727 /* UITableView+ZZExtension.swift */; };
+		97F1386E1F3FF52E0074D727 /* UITextField+ZZExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F1384C1F3FF52E0074D727 /* UITextField+ZZExtension.swift */; };
+		97F1386F1F3FF52E0074D727 /* UIView+ZZExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F1384D1F3FF52E0074D727 /* UIView+ZZExtension.swift */; };
+		97F138701F3FF52E0074D727 /* ZZLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F1384E1F3FF52E0074D727 /* ZZLib.swift */; };
 		97F2B7501F3E34C100979553 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F2B74F1F3E34C100979553 /* AppDelegate.swift */; };
-		97F2B7521F3E34C100979553 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F2B7511F3E34C100979553 /* ViewController.swift */; };
-		97F2B7551F3E34C100979553 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97F2B7531F3E34C100979553 /* Main.storyboard */; };
 		97F2B7571F3E34C100979553 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97F2B7561F3E34C100979553 /* Assets.xcassets */; };
-		97F2B75A1F3E34C100979553 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97F2B7581F3E34C100979553 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		812E0E74E74B1BA599688CAB /* Pods-KFNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KFNews.release.xcconfig"; path = "Pods/Target Support Files/Pods-KFNews/Pods-KFNews.release.xcconfig"; sourceTree = "<group>"; };
 		84D2A9045A8148F1A25B09A5 /* Pods-KFNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KFNews.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KFNews/Pods-KFNews.debug.xcconfig"; sourceTree = "<group>"; };
+		97F1380C1F3FEB560074D727 /* KFNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KFNavigationController.swift; sourceTree = "<group>"; };
+		97F1380D1F3FEB560074D727 /* KFTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KFTabBarController.swift; sourceTree = "<group>"; };
+		97F1380E1F3FEB560074D727 /* KFViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KFViewController.swift; sourceTree = "<group>"; };
+		97F1381F1F3FEB760074D727 /* KFHomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KFHomeController.swift; sourceTree = "<group>"; };
+		97F138211F3FEB890074D727 /* KFMineController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KFMineController.swift; sourceTree = "<group>"; };
+		97F138231F3FEBA20074D727 /* KFVideoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KFVideoController.swift; sourceTree = "<group>"; };
+		97F138251F3FEBDF0074D727 /* KFVRController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KFVRController.swift; sourceTree = "<group>"; };
+		97F138281F3FF52E0074D727 /* ZZCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZZCollection.swift; sourceTree = "<group>"; };
+		97F1382A1F3FF52E0074D727 /* ZZButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZZButton.swift; sourceTree = "<group>"; };
+		97F1382B1F3FF52E0074D727 /* ZZCircleProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZZCircleProgressView.swift; sourceTree = "<group>"; };
+		97F1382C1F3FF52E0074D727 /* ZZProgressHud.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZZProgressHud.swift; sourceTree = "<group>"; };
+		97F1382E1F3FF52E0074D727 /* UIScrollView+ZZRefresh.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+ZZRefresh.swift"; sourceTree = "<group>"; };
+		97F1382F1F3FF52E0074D727 /* ZZRefresh.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZZRefresh.swift; sourceTree = "<group>"; };
+		97F138301F3FF52E0074D727 /* ZZRefreshFooter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZZRefreshFooter.swift; sourceTree = "<group>"; };
+		97F138311F3FF52E0074D727 /* ZZRefreshHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZZRefreshHeader.swift; sourceTree = "<group>"; };
+		97F138321F3FF52E0074D727 /* ZZRefreshView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZZRefreshView.swift; sourceTree = "<group>"; };
+		97F138351F3FF52E0074D727 /* Calendar+ZZExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Calendar+ZZExtension.swift"; sourceTree = "<group>"; };
+		97F138361F3FF52E0074D727 /* CGRect+ZZExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGRect+ZZExtension.swift"; sourceTree = "<group>"; };
+		97F138371F3FF52E0074D727 /* Data+ZZExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+ZZExtension.swift"; sourceTree = "<group>"; };
+		97F138381F3FF52E0074D727 /* Date+ZZExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+ZZExtension.swift"; sourceTree = "<group>"; };
+		97F138391F3FF52E0074D727 /* DateFormatter+ZZExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DateFormatter+ZZExtension.swift"; sourceTree = "<group>"; };
+		97F1383A1F3FF52E0074D727 /* DispatchQueue+ZZExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DispatchQueue+ZZExtension.swift"; sourceTree = "<group>"; };
+		97F1383B1F3FF52E0074D727 /* Locale+ZZExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Locale+ZZExtension.swift"; sourceTree = "<group>"; };
+		97F1383C1F3FF52E0074D727 /* NSNumber+ZZExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSNumber+ZZExtension.swift"; sourceTree = "<group>"; };
+		97F1383D1F3FF52E0074D727 /* NSObject+ZZExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+ZZExtension.swift"; sourceTree = "<group>"; };
+		97F1383E1F3FF52E0074D727 /* String+ZZExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+ZZExtension.swift"; sourceTree = "<group>"; };
+		97F138401F3FF52E0074D727 /* UIAlertController+ZZExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIAlertController+ZZExtension.swift"; sourceTree = "<group>"; };
+		97F138411F3FF52E0074D727 /* UIApplication+ZZExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+ZZExtension.swift"; sourceTree = "<group>"; };
+		97F138421F3FF52E0074D727 /* UIButton+ZZExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+ZZExtension.swift"; sourceTree = "<group>"; };
+		97F138431F3FF52E0074D727 /* UIColor+ZZExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+ZZExtension.swift"; sourceTree = "<group>"; };
+		97F138441F3FF52E0074D727 /* UIDevice+ZZExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDevice+ZZExtension.swift"; sourceTree = "<group>"; };
+		97F138451F3FF52E0074D727 /* UIFont+ZZExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+ZZExtension.swift"; sourceTree = "<group>"; };
+		97F138461F3FF52E0074D727 /* UIImage+ZZExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+ZZExtension.swift"; sourceTree = "<group>"; };
+		97F138471F3FF52E0074D727 /* UIImageView+ZZExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+ZZExtension.swift"; sourceTree = "<group>"; };
+		97F138481F3FF52E0074D727 /* UILabel+ZZExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+ZZExtension.swift"; sourceTree = "<group>"; };
+		97F138491F3FF52E0074D727 /* UISceen+ZZExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISceen+ZZExtension.swift"; sourceTree = "<group>"; };
+		97F1384A1F3FF52E0074D727 /* UIScrollView+ZZExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+ZZExtension.swift"; sourceTree = "<group>"; };
+		97F1384B1F3FF52E0074D727 /* UITableView+ZZExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+ZZExtension.swift"; sourceTree = "<group>"; };
+		97F1384C1F3FF52E0074D727 /* UITextField+ZZExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+ZZExtension.swift"; sourceTree = "<group>"; };
+		97F1384D1F3FF52E0074D727 /* UIView+ZZExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+ZZExtension.swift"; sourceTree = "<group>"; };
+		97F1384E1F3FF52E0074D727 /* ZZLib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZZLib.swift; sourceTree = "<group>"; };
 		97F2B74C1F3E34C100979553 /* KFNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KFNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97F2B74F1F3E34C100979553 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		97F2B7511F3E34C100979553 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		97F2B7541F3E34C100979553 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		97F2B7561F3E34C100979553 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		97F2B7591F3E34C100979553 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97F2B75B1F3E34C100979553 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F94A12DA87EF99B4FC3E92E4 /* Pods_KFNews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KFNews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -40,6 +116,247 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		97F138061F3FEB560074D727 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				97F138071F3FEB560074D727 /* Home */,
+				97F1380B1F3FEB560074D727 /* Main */,
+				97F1380F1F3FEB560074D727 /* Mine */,
+				97F138131F3FEB560074D727 /* Other */,
+				97F138141F3FEB560074D727 /* Video */,
+				97F138181F3FEB560074D727 /* VR */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		97F138071F3FEB560074D727 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				97F138081F3FEB560074D727 /* Model */,
+				97F138091F3FEB560074D727 /* View */,
+				97F1380A1F3FEB560074D727 /* ViewModel */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		97F138081F3FEB560074D727 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		97F138091F3FEB560074D727 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				97F1381F1F3FEB760074D727 /* KFHomeController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		97F1380A1F3FEB560074D727 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		97F1380B1F3FEB560074D727 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				97F1380C1F3FEB560074D727 /* KFNavigationController.swift */,
+				97F1380D1F3FEB560074D727 /* KFTabBarController.swift */,
+				97F1380E1F3FEB560074D727 /* KFViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		97F1380F1F3FEB560074D727 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				97F138101F3FEB560074D727 /* Model */,
+				97F138111F3FEB560074D727 /* View */,
+				97F138121F3FEB560074D727 /* ViewModel */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		97F138101F3FEB560074D727 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		97F138111F3FEB560074D727 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				97F138211F3FEB890074D727 /* KFMineController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		97F138121F3FEB560074D727 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		97F138131F3FEB560074D727 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				97F138271F3FF52E0074D727 /* ZZLib */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		97F138141F3FEB560074D727 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				97F138151F3FEB560074D727 /* Model */,
+				97F138161F3FEB560074D727 /* View */,
+				97F138171F3FEB560074D727 /* ViewModel */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		97F138151F3FEB560074D727 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		97F138161F3FEB560074D727 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				97F138231F3FEBA20074D727 /* KFVideoController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		97F138171F3FEB560074D727 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		97F138181F3FEB560074D727 /* VR */ = {
+			isa = PBXGroup;
+			children = (
+				97F138191F3FEB560074D727 /* Model */,
+				97F1381A1F3FEB560074D727 /* View */,
+				97F1381B1F3FEB560074D727 /* ViewModel */,
+			);
+			path = VR;
+			sourceTree = "<group>";
+		};
+		97F138191F3FEB560074D727 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		97F1381A1F3FEB560074D727 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				97F138251F3FEBDF0074D727 /* KFVRController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		97F1381B1F3FEB560074D727 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		97F138271F3FF52E0074D727 /* ZZLib */ = {
+			isa = PBXGroup;
+			children = (
+				97F138281F3FF52E0074D727 /* ZZCollection.swift */,
+				97F138291F3FF52E0074D727 /* ZZCustom */,
+				97F138331F3FF52E0074D727 /* ZZExtension */,
+				97F1384E1F3FF52E0074D727 /* ZZLib.swift */,
+			);
+			name = ZZLib;
+			path = ../../../../../ZZLib/Source;
+			sourceTree = "<group>";
+		};
+		97F138291F3FF52E0074D727 /* ZZCustom */ = {
+			isa = PBXGroup;
+			children = (
+				97F1382A1F3FF52E0074D727 /* ZZButton.swift */,
+				97F1382B1F3FF52E0074D727 /* ZZCircleProgressView.swift */,
+				97F1382C1F3FF52E0074D727 /* ZZProgressHud.swift */,
+				97F1382D1F3FF52E0074D727 /* ZZRefresh */,
+			);
+			path = ZZCustom;
+			sourceTree = "<group>";
+		};
+		97F1382D1F3FF52E0074D727 /* ZZRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				97F1382E1F3FF52E0074D727 /* UIScrollView+ZZRefresh.swift */,
+				97F1382F1F3FF52E0074D727 /* ZZRefresh.swift */,
+				97F138301F3FF52E0074D727 /* ZZRefreshFooter.swift */,
+				97F138311F3FF52E0074D727 /* ZZRefreshHeader.swift */,
+				97F138321F3FF52E0074D727 /* ZZRefreshView.swift */,
+			);
+			path = ZZRefresh;
+			sourceTree = "<group>";
+		};
+		97F138331F3FF52E0074D727 /* ZZExtension */ = {
+			isa = PBXGroup;
+			children = (
+				97F138341F3FF52E0074D727 /* ZZNSExtension */,
+				97F1383F1F3FF52E0074D727 /* ZZUIExtension */,
+			);
+			path = ZZExtension;
+			sourceTree = "<group>";
+		};
+		97F138341F3FF52E0074D727 /* ZZNSExtension */ = {
+			isa = PBXGroup;
+			children = (
+				97F138351F3FF52E0074D727 /* Calendar+ZZExtension.swift */,
+				97F138361F3FF52E0074D727 /* CGRect+ZZExtension.swift */,
+				97F138371F3FF52E0074D727 /* Data+ZZExtension.swift */,
+				97F138381F3FF52E0074D727 /* Date+ZZExtension.swift */,
+				97F138391F3FF52E0074D727 /* DateFormatter+ZZExtension.swift */,
+				97F1383A1F3FF52E0074D727 /* DispatchQueue+ZZExtension.swift */,
+				97F1383B1F3FF52E0074D727 /* Locale+ZZExtension.swift */,
+				97F1383C1F3FF52E0074D727 /* NSNumber+ZZExtension.swift */,
+				97F1383D1F3FF52E0074D727 /* NSObject+ZZExtension.swift */,
+				97F1383E1F3FF52E0074D727 /* String+ZZExtension.swift */,
+			);
+			path = ZZNSExtension;
+			sourceTree = "<group>";
+		};
+		97F1383F1F3FF52E0074D727 /* ZZUIExtension */ = {
+			isa = PBXGroup;
+			children = (
+				97F138401F3FF52E0074D727 /* UIAlertController+ZZExtension.swift */,
+				97F138411F3FF52E0074D727 /* UIApplication+ZZExtension.swift */,
+				97F138421F3FF52E0074D727 /* UIButton+ZZExtension.swift */,
+				97F138431F3FF52E0074D727 /* UIColor+ZZExtension.swift */,
+				97F138441F3FF52E0074D727 /* UIDevice+ZZExtension.swift */,
+				97F138451F3FF52E0074D727 /* UIFont+ZZExtension.swift */,
+				97F138461F3FF52E0074D727 /* UIImage+ZZExtension.swift */,
+				97F138471F3FF52E0074D727 /* UIImageView+ZZExtension.swift */,
+				97F138481F3FF52E0074D727 /* UILabel+ZZExtension.swift */,
+				97F138491F3FF52E0074D727 /* UISceen+ZZExtension.swift */,
+				97F1384A1F3FF52E0074D727 /* UIScrollView+ZZExtension.swift */,
+				97F1384B1F3FF52E0074D727 /* UITableView+ZZExtension.swift */,
+				97F1384C1F3FF52E0074D727 /* UITextField+ZZExtension.swift */,
+				97F1384D1F3FF52E0074D727 /* UIView+ZZExtension.swift */,
+			);
+			path = ZZUIExtension;
+			sourceTree = "<group>";
+		};
 		97F2B7431F3E34C100979553 = {
 			isa = PBXGroup;
 			children = (
@@ -62,10 +379,8 @@
 			isa = PBXGroup;
 			children = (
 				97F2B74F1F3E34C100979553 /* AppDelegate.swift */,
-				97F2B7511F3E34C100979553 /* ViewController.swift */,
-				97F2B7531F3E34C100979553 /* Main.storyboard */,
+				97F138061F3FEB560074D727 /* Classes */,
 				97F2B7561F3E34C100979553 /* Assets.xcassets */,
-				97F2B7581F3E34C100979553 /* LaunchScreen.storyboard */,
 				97F2B75B1F3E34C100979553 /* Info.plist */,
 			);
 			path = KFNews;
@@ -150,9 +465,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97F2B75A1F3E34C100979553 /* LaunchScreen.storyboard in Resources */,
 				97F2B7571F3E34C100979553 /* Assets.xcassets in Resources */,
-				97F2B7551F3E34C100979553 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,31 +540,52 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97F2B7521F3E34C100979553 /* ViewController.swift in Sources */,
+				97F1385C1F3FF52E0074D727 /* DateFormatter+ZZExtension.swift in Sources */,
+				97F138521F3FF52E0074D727 /* ZZProgressHud.swift in Sources */,
+				97F138541F3FF52E0074D727 /* ZZRefresh.swift in Sources */,
+				97F1384F1F3FF52E0074D727 /* ZZCollection.swift in Sources */,
+				97F138501F3FF52E0074D727 /* ZZButton.swift in Sources */,
+				97F1381C1F3FEB560074D727 /* KFNavigationController.swift in Sources */,
+				97F1386F1F3FF52E0074D727 /* UIView+ZZExtension.swift in Sources */,
+				97F138201F3FEB760074D727 /* KFHomeController.swift in Sources */,
+				97F138651F3FF52E0074D727 /* UIColor+ZZExtension.swift in Sources */,
+				97F1385E1F3FF52E0074D727 /* Locale+ZZExtension.swift in Sources */,
+				97F1385B1F3FF52E0074D727 /* Date+ZZExtension.swift in Sources */,
+				97F138551F3FF52E0074D727 /* ZZRefreshFooter.swift in Sources */,
+				97F1386E1F3FF52E0074D727 /* UITextField+ZZExtension.swift in Sources */,
+				97F138241F3FEBA20074D727 /* KFVideoController.swift in Sources */,
+				97F1381E1F3FEB560074D727 /* KFViewController.swift in Sources */,
+				97F1386C1F3FF52E0074D727 /* UIScrollView+ZZExtension.swift in Sources */,
+				97F138571F3FF52E0074D727 /* ZZRefreshView.swift in Sources */,
+				97F1386A1F3FF52E0074D727 /* UILabel+ZZExtension.swift in Sources */,
+				97F1385F1F3FF52E0074D727 /* NSNumber+ZZExtension.swift in Sources */,
+				97F138261F3FEBDF0074D727 /* KFVRController.swift in Sources */,
+				97F1386B1F3FF52E0074D727 /* UISceen+ZZExtension.swift in Sources */,
+				97F138221F3FEB890074D727 /* KFMineController.swift in Sources */,
 				97F2B7501F3E34C100979553 /* AppDelegate.swift in Sources */,
+				97F138561F3FF52E0074D727 /* ZZRefreshHeader.swift in Sources */,
+				97F138691F3FF52E0074D727 /* UIImageView+ZZExtension.swift in Sources */,
+				97F138671F3FF52E0074D727 /* UIFont+ZZExtension.swift in Sources */,
+				97F138511F3FF52E0074D727 /* ZZCircleProgressView.swift in Sources */,
+				97F1385A1F3FF52E0074D727 /* Data+ZZExtension.swift in Sources */,
+				97F138621F3FF52E0074D727 /* UIAlertController+ZZExtension.swift in Sources */,
+				97F1386D1F3FF52E0074D727 /* UITableView+ZZExtension.swift in Sources */,
+				97F1385D1F3FF52E0074D727 /* DispatchQueue+ZZExtension.swift in Sources */,
+				97F138611F3FF52E0074D727 /* String+ZZExtension.swift in Sources */,
+				97F138641F3FF52E0074D727 /* UIButton+ZZExtension.swift in Sources */,
+				97F138701F3FF52E0074D727 /* ZZLib.swift in Sources */,
+				97F138631F3FF52E0074D727 /* UIApplication+ZZExtension.swift in Sources */,
+				97F138591F3FF52E0074D727 /* CGRect+ZZExtension.swift in Sources */,
+				97F138581F3FF52E0074D727 /* Calendar+ZZExtension.swift in Sources */,
+				97F138681F3FF52E0074D727 /* UIImage+ZZExtension.swift in Sources */,
+				97F138531F3FF52E0074D727 /* UIScrollView+ZZRefresh.swift in Sources */,
+				97F1381D1F3FEB560074D727 /* KFTabBarController.swift in Sources */,
+				97F138601F3FF52E0074D727 /* NSObject+ZZExtension.swift in Sources */,
+				97F138661F3FF52E0074D727 /* UIDevice+ZZExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		97F2B7531F3E34C100979553 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				97F2B7541F3E34C100979553 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		97F2B7581F3E34C100979553 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				97F2B7591F3E34C100979553 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		97F2B75C1F3E34C100979553 /* Debug */ = {
@@ -354,11 +688,13 @@
 			baseConfigurationReference = 84D2A9045A8148F1A25B09A5 /* Pods-KFNews.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = KFNews/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zz.KFNews;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -367,11 +703,13 @@
 			baseConfigurationReference = 812E0E74E74B1BA599688CAB /* Pods-KFNews.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = KFNews/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zz.KFNews;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -394,6 +732,7 @@
 				97F2B7601F3E34C100979553 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
